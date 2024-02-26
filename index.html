@@ -379,7 +379,7 @@
       function typeWriter(text, element, intervalIndex) {
           clearInterval(intervalIds[intervalIndex]);
           let i = 0;
-          const speed = 10;
+          const speed = 0.1;
           intervalIds[intervalIndex] = setInterval(() => {
               if (i < text.length) {
                   const char = text.charAt(i);
